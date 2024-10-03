@@ -134,4 +134,22 @@ body {
 }
 
 
+/* Style for video captions */
+figure {
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center-align the captions */
+}
 
+figcaption {
+  font-size: 14px; /* Adjust the font size */
+  color: #555;     /* Set the caption color */
+  margin-top: 8px; /* Add space between the video and caption */
+  font-family: 'Noto Sans', sans-serif; /* Match the body font family */
+}
+
+/* Optional: If you want the video to adjust its width responsively */
+figure video {
+  width: 100%;
+  height: auto;
+}
