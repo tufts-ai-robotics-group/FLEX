@@ -1,0 +1,75 @@
+experiment_name: force-train-general
+train_objects: ['microwave-1', 'dishwasher-1']
+test_objects: [
+  'trashcan-2',
+  # 'cabinet-3' 
+  # 'dishwasher-2'
+  # 'microwave-4'
+  # 'train-dishwasher-1',
+  # 'train-microwave-1'
+  # 'microwave-3', 'microwave-4', 'microwave-5', 'microwave-6', 
+  # 'trashcan-2',
+  # 'trashcan-1', 'trashcan-2',
+  # 'cabinet-1', 'cabinet-2', 'cabinet-3', 
+  # 'dishwasher-2', 'dishwasher-3'
+  # 'cabinet-2'
+]
+run_id: 53
+
+n_trials: 1
+
+force_policy: 
+  gamma: 0.99
+  algorithm: ddpg
+  lr: 1.0e-4
+  batch_size: 200
+  polyak: 0.995 
+  noise_clip: 1. 
+  policy_decay: 2. 
+  checkpoint_path: 'checkpoints/revolute_object_general_test'
+
+environment:
+  max_timesteps: 200
+  action_repeat: 1 
+
+robot:
+  name: Panda
+  action_scale: 0.1 # The scale of action execution 
+  # interaction stuff
+  kp_interaction: 5
+  interaction_timesteps: 40 
+  interaction_action_scale: 0.1
+  kp_execution: 150 
+  interaction_directions: ['forward', 'backward', 'left', 'right'] 
+
+Panda:
+  prepare_offset: [-0., 0, 0.08]
+  final_offset: [-0, 0, -0.05] 
+
+UR5e:
+  prepare_offset: [-0., 0, 0.08]
+  final_offset: [-0, 0, -0.03]
+
+Kinova3:
+  prepare_offset: [-0., -0.00, 0.1]
+  final_offset: [-0, -0.00, -0.04]
+
+
+robots: [
+  # 'Panda', 
+  # 'UR5e', 
+  'Kinova3'
+  ]
+
+object_params:
+  cabinet: 
+    scale: 0.4
+
+  microwave:
+    scale: 0.3 
+
+  dishwasher:
+    scale: 0.3
+
+  trashcan:
+    scale: 0.4

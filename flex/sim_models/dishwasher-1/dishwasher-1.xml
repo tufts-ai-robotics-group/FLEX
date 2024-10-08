@@ -1,0 +1,27 @@
+<mujoco model="partnet_c6090fb2806b2abfa5f4a1f264741b67">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="new-2" file="new-2.stl" />
+        <mesh name="new-0" file="new-0.stl" />
+        <mesh name="new-1" file="new-1.stl" />
+        <mesh name="original-2" file="original-2.stl" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object" >
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-2" contype="0" conaffinity="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-0" contype="0" conaffinity="0"/>
+        <body name="link_0" pos="-0.387863 -0.484492 -0.565497" quat="0.5 0.5 -0.5 -0.5" gravcomp="1">
+            <inertial pos="-0.500179 0.648008 0.0386602" quat="0.497788 0.502202 -0.502202 0.497788" mass="83.3471" diaginertia="18.4419 11.572 6.96006" />
+            <joint name="joint_0" pos="0 0 0" axis="1 0 0" limited="true" range="0 1.5708" />
+            <geom pos="-0.484492 0.565497 -0.387863" type="mesh" group="0" mesh="new-1" />
+            <geom pos="-0.484492 0.565497 -0.387863" type="mesh" group="0" mesh="original-2" />
+        </body>
+     </body>
+        <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1"/>
+    </body>
+    </worldbody>
+</mujoco>

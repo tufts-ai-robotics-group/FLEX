@@ -1,0 +1,1858 @@
+<robot name="partnet_5a2de91981d27ba3c59350d819542ec7">
+	<link name="base" />
+	<link name="link_0">
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_bottom-41-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_bottom-41-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-40-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-40-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-40-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-40-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-40-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-40-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-40-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-40-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-43-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-8.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-9.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-10.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-11.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-12.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-13.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-14.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-37-15.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_side-39-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_side-38-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-8.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-9.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-10.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-11.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-12.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-36-13.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<visual name="drawer_front-37">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-60.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-37">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-54.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-37">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-57.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-37">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-56.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-37">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-55.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-37">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-59.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-37">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-46.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_side-38">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-45.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_side-39">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-50.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_back-40">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-51.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-41">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-49.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-41">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-48.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-43">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-52.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="handle-36">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-61.obj.convex.stl" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_0" type="prismatic">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 0 1" />
+		<child link="link_0" />
+		<parent link="link_4" />
+		<limit lower="0" upper="0.55" />
+	</joint>
+	<link name="link_1">
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_side-30-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_side-29-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-34-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_bottom-32-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_bottom-32-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-28-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-28-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-28-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-28-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-28-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-8.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-9.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-10.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-11.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-12.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-13.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-27-14.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-31-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-31-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-31-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-31-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-31-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-31-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-31-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-31-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<visual name="drawer_front-28">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-86.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-28">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-78.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_side-29">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-82.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_side-30">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-77.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_back-31">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-83.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-32">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-81.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-32">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-80.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-34">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-84.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="handle-27">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-87.obj.convex.stl" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_1" type="prismatic">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 0 1" />
+		<child link="link_1" />
+		<parent link="link_4" />
+		<limit lower="0" upper="0.55" />
+	</joint>
+	<link name="link_2">
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_side-21-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-8.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-9.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-10.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-11.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-12.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-18-13.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_bottom-23-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_bottom-23-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-25-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_side-20-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-19-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-19-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-19-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-19-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-19-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-22-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-22-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-22-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-22-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-22-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-22-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-22-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-22-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<visual name="drawer_front-19">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-65.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-19">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-73.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_side-20">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-64.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_side-21">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-69.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_back-22">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-70.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-23">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-68.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-23">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-67.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-25">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-71.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="handle-18">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-74.obj.convex.stl" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_2" type="prismatic">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 0 1" />
+		<child link="link_2" />
+		<parent link="link_4" />
+		<limit lower="0" upper="0.55" />
+	</joint>
+	<link name="link_3">
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-8.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-9.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-10.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-11.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-12.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/handle-9-13.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-13-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-13-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-13-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-13-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-13-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-13-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-13-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_back-13-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_side-12-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_side-11-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-8.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-9.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-10.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-11.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-12.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_front-10-13.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_bottom-14-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/drawer_bottom-14-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-16-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<visual name="drawer_front-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-41.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-37.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-38.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-35.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-36.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-27.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_front-10">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-40.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_side-11">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-26.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_side-12">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-31.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_back-13">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-32.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-14">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-30.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-14">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-29.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-16">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-33.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="handle-9">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-42.obj.convex.stl" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_3" type="prismatic">
+		<origin xyz="0 0 0" />
+		<axis xyz="0 0 1" />
+		<child link="link_3" />
+		<parent link="link_4" />
+		<limit lower="0" upper="0.55" />
+	</joint>
+	<link name="link_4">
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/back_panel-64-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/back_panel-64-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/back_panel-64-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-59-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-59-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-59-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-59-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-59-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-59-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-59-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-59-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-61-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-61-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-61-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-61-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-61-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-61-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-61-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-61-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-62-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-62-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-62-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-62-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-62-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-62-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-62-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-62-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-48-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-57-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-57-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-57-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-57-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-57-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-57-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-57-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-57-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-46-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-46-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_vertical_bar-55-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-60-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-60-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-60-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-60-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-60-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-60-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-60-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-67-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-67-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-67-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-67-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-67-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_vertical_bar-54-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-66-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-66-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-66-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-66-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-56-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-56-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-56-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-56-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-58-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-58-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-58-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-58-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-58-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-58-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-58-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/frame_horizontal_bar-58-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/bottom_panel-65-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-63-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-63-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-63-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-63-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-63-4.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-63-5.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-63-6.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/vertical_side_panel-63-7.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/other_leaf-69-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-45-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-45-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-45-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-45-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-47-0.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-47-1.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-47-2.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="new5_objs/base_side_panel-47-3.obj.convex.stl" />
+			</geometry>
+		</collision>
+		<visual name="frame_vertical_bar-54">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-3.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_vertical_bar-55">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-7.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-56">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-20.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-57">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-6.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-58">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-8.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-59">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-23.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-60">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-22.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-61">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-17.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-62">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-11.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-62">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-10.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-63">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-15.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-63">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-14.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="back_panel-64">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-5.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="bottom_panel-65">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-2.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-66">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-21.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-67">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-4.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="other_leaf-69">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-88.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-45">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-12.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-46">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-18.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-47">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-16.obj.convex.stl" />
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-48">
+			<origin xyz="0 0 0" />
+			<geometry>
+				<mesh filename="textured_objs/original-19.obj.convex.stl" />
+			</geometry>
+		</visual>
+		</link>
+	<joint name="joint_4" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0" />
+		<child link="link_4" />
+		<parent link="base" />
+	</joint>
+</robot>

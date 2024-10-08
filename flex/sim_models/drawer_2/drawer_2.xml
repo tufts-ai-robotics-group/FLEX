@@ -1,0 +1,502 @@
+<mujoco model="partnet_5a2de91981d27ba3c59350d819542ec7">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="drawer_bottom-41-0.obj.convex" file="drawer_bottom-41-0.obj.convex.stl" />
+        <mesh name="drawer_bottom-41-1.obj.convex" file="drawer_bottom-41-1.obj.convex.stl" />
+        <mesh name="drawer_back-40-0.obj.convex" file="drawer_back-40-0.obj.convex.stl" />
+        <mesh name="drawer_back-40-1.obj.convex" file="drawer_back-40-1.obj.convex.stl" />
+        <mesh name="drawer_back-40-2.obj.convex" file="drawer_back-40-2.obj.convex.stl" />
+        <mesh name="drawer_back-40-3.obj.convex" file="drawer_back-40-3.obj.convex.stl" />
+        <mesh name="drawer_back-40-4.obj.convex" file="drawer_back-40-4.obj.convex.stl" />
+        <mesh name="drawer_back-40-5.obj.convex" file="drawer_back-40-5.obj.convex.stl" />
+        <mesh name="drawer_back-40-6.obj.convex" file="drawer_back-40-6.obj.convex.stl" />
+        <mesh name="drawer_back-40-7.obj.convex" file="drawer_back-40-7.obj.convex.stl" />
+        <mesh name="other_leaf-43-0.obj.convex" file="other_leaf-43-0.obj.convex.stl" />
+        <mesh name="drawer_front-37-0.obj.convex" file="drawer_front-37-0.obj.convex.stl" />
+        <mesh name="drawer_front-37-1.obj.convex" file="drawer_front-37-1.obj.convex.stl" />
+        <mesh name="drawer_front-37-2.obj.convex" file="drawer_front-37-2.obj.convex.stl" />
+        <mesh name="drawer_front-37-3.obj.convex" file="drawer_front-37-3.obj.convex.stl" />
+        <mesh name="drawer_front-37-4.obj.convex" file="drawer_front-37-4.obj.convex.stl" />
+        <mesh name="drawer_front-37-5.obj.convex" file="drawer_front-37-5.obj.convex.stl" />
+        <mesh name="drawer_front-37-6.obj.convex" file="drawer_front-37-6.obj.convex.stl" />
+        <mesh name="drawer_front-37-7.obj.convex" file="drawer_front-37-7.obj.convex.stl" />
+        <mesh name="drawer_front-37-8.obj.convex" file="drawer_front-37-8.obj.convex.stl" />
+        <mesh name="drawer_front-37-9.obj.convex" file="drawer_front-37-9.obj.convex.stl" />
+        <mesh name="drawer_front-37-10.obj.convex" file="drawer_front-37-10.obj.convex.stl" />
+        <mesh name="drawer_front-37-11.obj.convex" file="drawer_front-37-11.obj.convex.stl" />
+        <mesh name="drawer_front-37-12.obj.convex" file="drawer_front-37-12.obj.convex.stl" />
+        <mesh name="drawer_front-37-13.obj.convex" file="drawer_front-37-13.obj.convex.stl" />
+        <mesh name="drawer_front-37-14.obj.convex" file="drawer_front-37-14.obj.convex.stl" />
+        <mesh name="drawer_front-37-15.obj.convex" file="drawer_front-37-15.obj.convex.stl" />
+        <mesh name="drawer_side-39-0.obj.convex" file="drawer_side-39-0.obj.convex.stl" />
+        <mesh name="drawer_side-38-0.obj.convex" file="drawer_side-38-0.obj.convex.stl" />
+        <mesh name="handle-36-0.obj.convex" file="handle-36-0.obj.convex.stl" />
+        <mesh name="handle-36-1.obj.convex" file="handle-36-1.obj.convex.stl" />
+        <mesh name="handle-36-2.obj.convex" file="handle-36-2.obj.convex.stl" />
+        <mesh name="handle-36-3.obj.convex" file="handle-36-3.obj.convex.stl" />
+        <mesh name="handle-36-4.obj.convex" file="handle-36-4.obj.convex.stl" />
+        <mesh name="handle-36-5.obj.convex" file="handle-36-5.obj.convex.stl" />
+        <mesh name="handle-36-6.obj.convex" file="handle-36-6.obj.convex.stl" />
+        <mesh name="handle-36-7.obj.convex" file="handle-36-7.obj.convex.stl" />
+        <mesh name="handle-36-8.obj.convex" file="handle-36-8.obj.convex.stl" />
+        <mesh name="handle-36-9.obj.convex" file="handle-36-9.obj.convex.stl" />
+        <mesh name="handle-36-10.obj.convex" file="handle-36-10.obj.convex.stl" />
+        <mesh name="handle-36-11.obj.convex" file="handle-36-11.obj.convex.stl" />
+        <mesh name="handle-36-12.obj.convex" file="handle-36-12.obj.convex.stl" />
+        <mesh name="handle-36-13.obj.convex" file="handle-36-13.obj.convex.stl" />
+        <mesh name="drawer_side-30-0.obj.convex" file="drawer_side-30-0.obj.convex.stl" />
+        <mesh name="drawer_side-29-0.obj.convex" file="drawer_side-29-0.obj.convex.stl" />
+        <mesh name="other_leaf-34-0.obj.convex" file="other_leaf-34-0.obj.convex.stl" />
+        <mesh name="drawer_bottom-32-0.obj.convex" file="drawer_bottom-32-0.obj.convex.stl" />
+        <mesh name="drawer_bottom-32-1.obj.convex" file="drawer_bottom-32-1.obj.convex.stl" />
+        <mesh name="drawer_front-28-0.obj.convex" file="drawer_front-28-0.obj.convex.stl" />
+        <mesh name="drawer_front-28-1.obj.convex" file="drawer_front-28-1.obj.convex.stl" />
+        <mesh name="drawer_front-28-2.obj.convex" file="drawer_front-28-2.obj.convex.stl" />
+        <mesh name="drawer_front-28-3.obj.convex" file="drawer_front-28-3.obj.convex.stl" />
+        <mesh name="drawer_front-28-4.obj.convex" file="drawer_front-28-4.obj.convex.stl" />
+        <mesh name="handle-27-0.obj.convex" file="handle-27-0.obj.convex.stl" />
+        <mesh name="handle-27-1.obj.convex" file="handle-27-1.obj.convex.stl" />
+        <mesh name="handle-27-2.obj.convex" file="handle-27-2.obj.convex.stl" />
+        <mesh name="handle-27-3.obj.convex" file="handle-27-3.obj.convex.stl" />
+        <mesh name="handle-27-4.obj.convex" file="handle-27-4.obj.convex.stl" />
+        <mesh name="handle-27-5.obj.convex" file="handle-27-5.obj.convex.stl" />
+        <mesh name="handle-27-6.obj.convex" file="handle-27-6.obj.convex.stl" />
+        <mesh name="handle-27-7.obj.convex" file="handle-27-7.obj.convex.stl" />
+        <mesh name="handle-27-8.obj.convex" file="handle-27-8.obj.convex.stl" />
+        <mesh name="handle-27-9.obj.convex" file="handle-27-9.obj.convex.stl" />
+        <mesh name="handle-27-10.obj.convex" file="handle-27-10.obj.convex.stl" />
+        <mesh name="handle-27-11.obj.convex" file="handle-27-11.obj.convex.stl" />
+        <mesh name="handle-27-12.obj.convex" file="handle-27-12.obj.convex.stl" />
+        <mesh name="handle-27-13.obj.convex" file="handle-27-13.obj.convex.stl" />
+        <mesh name="handle-27-14.obj.convex" file="handle-27-14.obj.convex.stl" />
+        <mesh name="drawer_back-31-0.obj.convex" file="drawer_back-31-0.obj.convex.stl" />
+        <mesh name="drawer_back-31-1.obj.convex" file="drawer_back-31-1.obj.convex.stl" />
+        <mesh name="drawer_back-31-2.obj.convex" file="drawer_back-31-2.obj.convex.stl" />
+        <mesh name="drawer_back-31-3.obj.convex" file="drawer_back-31-3.obj.convex.stl" />
+        <mesh name="drawer_back-31-4.obj.convex" file="drawer_back-31-4.obj.convex.stl" />
+        <mesh name="drawer_back-31-5.obj.convex" file="drawer_back-31-5.obj.convex.stl" />
+        <mesh name="drawer_back-31-6.obj.convex" file="drawer_back-31-6.obj.convex.stl" />
+        <mesh name="drawer_back-31-7.obj.convex" file="drawer_back-31-7.obj.convex.stl" />
+        <mesh name="drawer_side-21-0.obj.convex" file="drawer_side-21-0.obj.convex.stl" />
+        <mesh name="handle-18-0.obj.convex" file="handle-18-0.obj.convex.stl" />
+        <mesh name="handle-18-1.obj.convex" file="handle-18-1.obj.convex.stl" />
+        <mesh name="handle-18-2.obj.convex" file="handle-18-2.obj.convex.stl" />
+        <mesh name="handle-18-3.obj.convex" file="handle-18-3.obj.convex.stl" />
+        <mesh name="handle-18-4.obj.convex" file="handle-18-4.obj.convex.stl" />
+        <mesh name="handle-18-5.obj.convex" file="handle-18-5.obj.convex.stl" />
+        <mesh name="handle-18-6.obj.convex" file="handle-18-6.obj.convex.stl" />
+        <mesh name="handle-18-7.obj.convex" file="handle-18-7.obj.convex.stl" />
+        <mesh name="handle-18-8.obj.convex" file="handle-18-8.obj.convex.stl" />
+        <mesh name="handle-18-9.obj.convex" file="handle-18-9.obj.convex.stl" />
+        <mesh name="handle-18-10.obj.convex" file="handle-18-10.obj.convex.stl" />
+        <mesh name="handle-18-11.obj.convex" file="handle-18-11.obj.convex.stl" />
+        <mesh name="handle-18-12.obj.convex" file="handle-18-12.obj.convex.stl" />
+        <mesh name="handle-18-13.obj.convex" file="handle-18-13.obj.convex.stl" />
+        <mesh name="drawer_bottom-23-0.obj.convex" file="drawer_bottom-23-0.obj.convex.stl" />
+        <mesh name="drawer_bottom-23-1.obj.convex" file="drawer_bottom-23-1.obj.convex.stl" />
+        <mesh name="other_leaf-25-0.obj.convex" file="other_leaf-25-0.obj.convex.stl" />
+        <mesh name="drawer_side-20-0.obj.convex" file="drawer_side-20-0.obj.convex.stl" />
+        <mesh name="drawer_front-19-0.obj.convex" file="drawer_front-19-0.obj.convex.stl" />
+        <mesh name="drawer_front-19-1.obj.convex" file="drawer_front-19-1.obj.convex.stl" />
+        <mesh name="drawer_front-19-2.obj.convex" file="drawer_front-19-2.obj.convex.stl" />
+        <mesh name="drawer_front-19-3.obj.convex" file="drawer_front-19-3.obj.convex.stl" />
+        <mesh name="drawer_front-19-4.obj.convex" file="drawer_front-19-4.obj.convex.stl" />
+        <mesh name="drawer_back-22-0.obj.convex" file="drawer_back-22-0.obj.convex.stl" />
+        <mesh name="drawer_back-22-1.obj.convex" file="drawer_back-22-1.obj.convex.stl" />
+        <mesh name="drawer_back-22-2.obj.convex" file="drawer_back-22-2.obj.convex.stl" />
+        <mesh name="drawer_back-22-3.obj.convex" file="drawer_back-22-3.obj.convex.stl" />
+        <mesh name="drawer_back-22-4.obj.convex" file="drawer_back-22-4.obj.convex.stl" />
+        <mesh name="drawer_back-22-5.obj.convex" file="drawer_back-22-5.obj.convex.stl" />
+        <mesh name="drawer_back-22-6.obj.convex" file="drawer_back-22-6.obj.convex.stl" />
+        <mesh name="drawer_back-22-7.obj.convex" file="drawer_back-22-7.obj.convex.stl" />
+        <mesh name="handle-9-0.obj.convex" file="handle-9-0.obj.convex.stl" />
+        <mesh name="handle-9-1.obj.convex" file="handle-9-1.obj.convex.stl" />
+        <mesh name="handle-9-2.obj.convex" file="handle-9-2.obj.convex.stl" />
+        <mesh name="handle-9-3.obj.convex" file="handle-9-3.obj.convex.stl" />
+        <mesh name="handle-9-4.obj.convex" file="handle-9-4.obj.convex.stl" />
+        <mesh name="handle-9-5.obj.convex" file="handle-9-5.obj.convex.stl" />
+        <mesh name="handle-9-6.obj.convex" file="handle-9-6.obj.convex.stl" />
+        <mesh name="handle-9-7.obj.convex" file="handle-9-7.obj.convex.stl" />
+        <mesh name="handle-9-8.obj.convex" file="handle-9-8.obj.convex.stl" />
+        <mesh name="handle-9-9.obj.convex" file="handle-9-9.obj.convex.stl" />
+        <mesh name="handle-9-10.obj.convex" file="handle-9-10.obj.convex.stl" />
+        <mesh name="handle-9-11.obj.convex" file="handle-9-11.obj.convex.stl" />
+        <mesh name="handle-9-12.obj.convex" file="handle-9-12.obj.convex.stl" />
+        <mesh name="handle-9-13.obj.convex" file="handle-9-13.obj.convex.stl" />
+        <mesh name="drawer_back-13-0.obj.convex" file="drawer_back-13-0.obj.convex.stl" />
+        <mesh name="drawer_back-13-1.obj.convex" file="drawer_back-13-1.obj.convex.stl" />
+        <mesh name="drawer_back-13-2.obj.convex" file="drawer_back-13-2.obj.convex.stl" />
+        <mesh name="drawer_back-13-3.obj.convex" file="drawer_back-13-3.obj.convex.stl" />
+        <mesh name="drawer_back-13-4.obj.convex" file="drawer_back-13-4.obj.convex.stl" />
+        <mesh name="drawer_back-13-5.obj.convex" file="drawer_back-13-5.obj.convex.stl" />
+        <mesh name="drawer_back-13-6.obj.convex" file="drawer_back-13-6.obj.convex.stl" />
+        <mesh name="drawer_back-13-7.obj.convex" file="drawer_back-13-7.obj.convex.stl" />
+        <mesh name="drawer_side-12-0.obj.convex" file="drawer_side-12-0.obj.convex.stl" />
+        <mesh name="drawer_side-11-0.obj.convex" file="drawer_side-11-0.obj.convex.stl" />
+        <mesh name="drawer_front-10-0.obj.convex" file="drawer_front-10-0.obj.convex.stl" />
+        <mesh name="drawer_front-10-1.obj.convex" file="drawer_front-10-1.obj.convex.stl" />
+        <mesh name="drawer_front-10-2.obj.convex" file="drawer_front-10-2.obj.convex.stl" />
+        <mesh name="drawer_front-10-3.obj.convex" file="drawer_front-10-3.obj.convex.stl" />
+        <mesh name="drawer_front-10-4.obj.convex" file="drawer_front-10-4.obj.convex.stl" />
+        <mesh name="drawer_front-10-5.obj.convex" file="drawer_front-10-5.obj.convex.stl" />
+        <mesh name="drawer_front-10-6.obj.convex" file="drawer_front-10-6.obj.convex.stl" />
+        <mesh name="drawer_front-10-7.obj.convex" file="drawer_front-10-7.obj.convex.stl" />
+        <mesh name="drawer_front-10-8.obj.convex" file="drawer_front-10-8.obj.convex.stl" />
+        <mesh name="drawer_front-10-9.obj.convex" file="drawer_front-10-9.obj.convex.stl" />
+        <mesh name="drawer_front-10-10.obj.convex" file="drawer_front-10-10.obj.convex.stl" />
+        <mesh name="drawer_front-10-11.obj.convex" file="drawer_front-10-11.obj.convex.stl" />
+        <mesh name="drawer_front-10-12.obj.convex" file="drawer_front-10-12.obj.convex.stl" />
+        <mesh name="drawer_front-10-13.obj.convex" file="drawer_front-10-13.obj.convex.stl" />
+        <mesh name="drawer_bottom-14-0.obj.convex" file="drawer_bottom-14-0.obj.convex.stl" />
+        <mesh name="drawer_bottom-14-1.obj.convex" file="drawer_bottom-14-1.obj.convex.stl" />
+        <mesh name="other_leaf-16-0.obj.convex" file="other_leaf-16-0.obj.convex.stl" />
+        <mesh name="back_panel-64-0.obj.convex" file="back_panel-64-0.obj.convex.stl" />
+        <mesh name="back_panel-64-1.obj.convex" file="back_panel-64-1.obj.convex.stl" />
+        <mesh name="back_panel-64-2.obj.convex" file="back_panel-64-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-59-0.obj.convex" file="frame_horizontal_bar-59-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-59-1.obj.convex" file="frame_horizontal_bar-59-1.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-59-2.obj.convex" file="frame_horizontal_bar-59-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-59-3.obj.convex" file="frame_horizontal_bar-59-3.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-59-4.obj.convex" file="frame_horizontal_bar-59-4.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-59-5.obj.convex" file="frame_horizontal_bar-59-5.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-59-6.obj.convex" file="frame_horizontal_bar-59-6.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-59-7.obj.convex" file="frame_horizontal_bar-59-7.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-61-0.obj.convex" file="frame_horizontal_bar-61-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-61-1.obj.convex" file="frame_horizontal_bar-61-1.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-61-2.obj.convex" file="frame_horizontal_bar-61-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-61-3.obj.convex" file="frame_horizontal_bar-61-3.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-61-4.obj.convex" file="frame_horizontal_bar-61-4.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-61-5.obj.convex" file="frame_horizontal_bar-61-5.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-61-6.obj.convex" file="frame_horizontal_bar-61-6.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-61-7.obj.convex" file="frame_horizontal_bar-61-7.obj.convex.stl" />
+        <mesh name="vertical_side_panel-62-0.obj.convex" file="vertical_side_panel-62-0.obj.convex.stl" />
+        <mesh name="vertical_side_panel-62-1.obj.convex" file="vertical_side_panel-62-1.obj.convex.stl" />
+        <mesh name="vertical_side_panel-62-2.obj.convex" file="vertical_side_panel-62-2.obj.convex.stl" />
+        <mesh name="vertical_side_panel-62-3.obj.convex" file="vertical_side_panel-62-3.obj.convex.stl" />
+        <mesh name="vertical_side_panel-62-4.obj.convex" file="vertical_side_panel-62-4.obj.convex.stl" />
+        <mesh name="vertical_side_panel-62-5.obj.convex" file="vertical_side_panel-62-5.obj.convex.stl" />
+        <mesh name="vertical_side_panel-62-6.obj.convex" file="vertical_side_panel-62-6.obj.convex.stl" />
+        <mesh name="vertical_side_panel-62-7.obj.convex" file="vertical_side_panel-62-7.obj.convex.stl" />
+        <mesh name="base_side_panel-48-0.obj.convex" file="base_side_panel-48-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-57-0.obj.convex" file="frame_horizontal_bar-57-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-57-1.obj.convex" file="frame_horizontal_bar-57-1.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-57-2.obj.convex" file="frame_horizontal_bar-57-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-57-3.obj.convex" file="frame_horizontal_bar-57-3.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-57-4.obj.convex" file="frame_horizontal_bar-57-4.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-57-5.obj.convex" file="frame_horizontal_bar-57-5.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-57-6.obj.convex" file="frame_horizontal_bar-57-6.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-57-7.obj.convex" file="frame_horizontal_bar-57-7.obj.convex.stl" />
+        <mesh name="base_side_panel-46-0.obj.convex" file="base_side_panel-46-0.obj.convex.stl" />
+        <mesh name="base_side_panel-46-1.obj.convex" file="base_side_panel-46-1.obj.convex.stl" />
+        <mesh name="frame_vertical_bar-55-0.obj.convex" file="frame_vertical_bar-55-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-60-0.obj.convex" file="frame_horizontal_bar-60-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-60-1.obj.convex" file="frame_horizontal_bar-60-1.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-60-2.obj.convex" file="frame_horizontal_bar-60-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-60-3.obj.convex" file="frame_horizontal_bar-60-3.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-60-4.obj.convex" file="frame_horizontal_bar-60-4.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-60-5.obj.convex" file="frame_horizontal_bar-60-5.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-60-6.obj.convex" file="frame_horizontal_bar-60-6.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-67-0.obj.convex" file="frame_horizontal_bar-67-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-67-1.obj.convex" file="frame_horizontal_bar-67-1.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-67-2.obj.convex" file="frame_horizontal_bar-67-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-67-3.obj.convex" file="frame_horizontal_bar-67-3.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-67-4.obj.convex" file="frame_horizontal_bar-67-4.obj.convex.stl" />
+        <mesh name="frame_vertical_bar-54-0.obj.convex" file="frame_vertical_bar-54-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-66-0.obj.convex" file="frame_horizontal_bar-66-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-66-1.obj.convex" file="frame_horizontal_bar-66-1.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-66-2.obj.convex" file="frame_horizontal_bar-66-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-66-3.obj.convex" file="frame_horizontal_bar-66-3.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-56-0.obj.convex" file="frame_horizontal_bar-56-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-56-1.obj.convex" file="frame_horizontal_bar-56-1.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-56-2.obj.convex" file="frame_horizontal_bar-56-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-56-3.obj.convex" file="frame_horizontal_bar-56-3.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-58-0.obj.convex" file="frame_horizontal_bar-58-0.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-58-1.obj.convex" file="frame_horizontal_bar-58-1.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-58-2.obj.convex" file="frame_horizontal_bar-58-2.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-58-3.obj.convex" file="frame_horizontal_bar-58-3.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-58-4.obj.convex" file="frame_horizontal_bar-58-4.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-58-5.obj.convex" file="frame_horizontal_bar-58-5.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-58-6.obj.convex" file="frame_horizontal_bar-58-6.obj.convex.stl" />
+        <mesh name="frame_horizontal_bar-58-7.obj.convex" file="frame_horizontal_bar-58-7.obj.convex.stl" />
+        <mesh name="bottom_panel-65-0.obj.convex" file="bottom_panel-65-0.obj.convex.stl" />
+        <mesh name="vertical_side_panel-63-0.obj.convex" file="vertical_side_panel-63-0.obj.convex.stl" />
+        <mesh name="vertical_side_panel-63-1.obj.convex" file="vertical_side_panel-63-1.obj.convex.stl" />
+        <mesh name="vertical_side_panel-63-2.obj.convex" file="vertical_side_panel-63-2.obj.convex.stl" />
+        <mesh name="vertical_side_panel-63-3.obj.convex" file="vertical_side_panel-63-3.obj.convex.stl" />
+        <mesh name="vertical_side_panel-63-4.obj.convex" file="vertical_side_panel-63-4.obj.convex.stl" />
+        <mesh name="vertical_side_panel-63-5.obj.convex" file="vertical_side_panel-63-5.obj.convex.stl" />
+        <mesh name="vertical_side_panel-63-6.obj.convex" file="vertical_side_panel-63-6.obj.convex.stl" />
+        <mesh name="vertical_side_panel-63-7.obj.convex" file="vertical_side_panel-63-7.obj.convex.stl" />
+        <mesh name="other_leaf-69-0.obj.convex" file="other_leaf-69-0.obj.convex.stl" />
+        <mesh name="base_side_panel-45-0.obj.convex" file="base_side_panel-45-0.obj.convex.stl" />
+        <mesh name="base_side_panel-45-1.obj.convex" file="base_side_panel-45-1.obj.convex.stl" />
+        <mesh name="base_side_panel-45-2.obj.convex" file="base_side_panel-45-2.obj.convex.stl" />
+        <mesh name="base_side_panel-45-3.obj.convex" file="base_side_panel-45-3.obj.convex.stl" />
+        <mesh name="base_side_panel-47-0.obj.convex" file="base_side_panel-47-0.obj.convex.stl" />
+        <mesh name="base_side_panel-47-1.obj.convex" file="base_side_panel-47-1.obj.convex.stl" />
+        <mesh name="base_side_panel-47-2.obj.convex" file="base_side_panel-47-2.obj.convex.stl" />
+        <mesh name="base_side_panel-47-3.obj.convex" file="base_side_panel-47-3.obj.convex.stl" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object">
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="back_panel-64-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="back_panel-64-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="back_panel-64-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-59-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-59-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-59-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-59-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-59-4.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-59-5.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-59-6.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-59-7.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-61-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-61-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-61-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-61-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-61-4.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-61-5.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-61-6.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-61-7.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-62-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-62-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-62-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-62-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-62-4.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-62-5.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-62-6.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-62-7.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-48-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-57-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-57-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-57-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-57-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-57-4.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-57-5.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-57-6.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-57-7.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-46-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-46-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_vertical_bar-55-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-60-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-60-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-60-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-60-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-60-4.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-60-5.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-60-6.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-67-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-67-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-67-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-67-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-67-4.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_vertical_bar-54-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-66-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-66-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-66-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-66-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-56-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-56-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-56-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-56-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-58-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-58-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-58-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-58-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-58-4.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-58-5.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-58-6.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="frame_horizontal_bar-58-7.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="bottom_panel-65-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-63-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-63-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-63-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-63-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-63-4.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-63-5.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-63-6.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="vertical_side_panel-63-7.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="other_leaf-69-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-45-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-45-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-45-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-45-3.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-47-0.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-47-1.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-47-2.obj.convex" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="base_side_panel-47-3.obj.convex" group="0" />
+        <body name="link_0" pos="0 0 0" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.00155292 -0.375504 0.214785" quat="0.496061 0.503877 0.495912 0.504086" mass="27.0804" diaginertia="5.10132 4.16505 1.6498" />
+            <joint name="joint_0" pos="0 0 0" axis="0 0 1" type="slide" limited="true" range="0 0.55" />
+            <geom type="mesh" mesh="drawer_bottom-41-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_bottom-41-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-40-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-40-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-40-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-40-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-40-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-40-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-40-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-40-7.obj.convex" group="0" />
+            <geom type="mesh" mesh="other_leaf-43-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-7.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-8.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-9.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-10.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-11.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-12.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-13.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-14.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-37-15.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_side-39-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_side-38-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-7.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-8.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-9.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-10.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-11.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-12.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-36-13.obj.convex" group="0" />
+        </body>
+        <body name="link_1" pos="0 0 0" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="0.000303532 -0.0095104 0.256827" quat="0.508211 0.491677 0.506158 0.49374" mass="16.3394" diaginertia="2.685 2.02371 0.78488" />
+            <joint name="joint_1" pos="0 0 0" axis="0 0 1" type="slide" limited="true" range="0 0.55" />
+            <geom type="mesh" mesh="drawer_side-30-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_side-29-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="other_leaf-34-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_bottom-32-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_bottom-32-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-28-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-28-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-28-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-28-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-28-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-7.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-8.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-9.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-10.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-11.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-12.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-13.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-27-14.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-31-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-31-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-31-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-31-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-31-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-31-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-31-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-31-7.obj.convex" group="0" />
+        </body>
+        <body name="link_2" pos="0 0 0" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="0.000299616 0.280103 0.256838" quat="0.502381 0.497644 0.5003 0.499664" mass="16.341" diaginertia="2.68451 2.02349 0.784123" />
+            <joint name="joint_2" pos="0 0 0" axis="0 0 1" type="slide" limited="true" range="0 0.55" />
+            <geom type="mesh" mesh="drawer_side-21-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-7.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-8.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-9.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-10.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-11.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-12.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-18-13.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_bottom-23-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_bottom-23-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="other_leaf-25-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_side-20-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-19-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-19-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-19-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-19-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-19-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-22-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-22-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-22-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-22-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-22-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-22-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-22-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-22-7.obj.convex" group="0" />
+        </body>
+        <body name="link_3" pos="0 0 0" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.00161764 0.584351 0.2576" quat="0.509058 0.490756 0.509083 0.490769" mass="16.7018" diaginertia="2.84405 2.21043 0.826351" />
+            <joint name="joint_3" pos="0 0 0" axis="0 0 1" type="slide" limited="true" range="0 0.55" />
+            <geom type="mesh" mesh="handle-9-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-7.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-8.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-9.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-10.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-11.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-12.obj.convex" group="0" />
+            <geom type="mesh" mesh="handle-9-13.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-13-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-13-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-13-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-13-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-13-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-13-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-13-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_back-13-7.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_side-12-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_side-11-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-2.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-3.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-4.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-5.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-6.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-7.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-8.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-9.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-10.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-11.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-12.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_front-10-13.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_bottom-14-0.obj.convex" group="0" />
+            <geom type="mesh" mesh="drawer_bottom-14-1.obj.convex" group="0" />
+            <geom type="mesh" mesh="other_leaf-16-0.obj.convex" group="0" />
+        </body>
+    </body>
+        <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1"/>
+
+    </body>
+    </worldbody>
+</mujoco>

@@ -1,0 +1,32 @@
+experiment_name: force-train-general
+train_objects: ['microwave-1', 'dishwasher-1']
+test_objects: ['microwave-2', 'microwave-3', 'microwave-4'] 
+
+output_dir: outputs/
+
+rotate_around_robot: False 
+save_policy_freq: 1000 
+n_envs: 24
+
+force_policy: 
+  gamma: 0.99
+  algorithm: ddpg
+  lr: 2.0e-3
+  batch_size: 200
+  polyak: 0.995 
+  noise_clip: 1. 
+  policy_decay: 2. 
+
+environment:
+  max_timesteps: 200
+  action_repeat: 1 
+
+robot:
+  name: Panda
+  action_scale: 0.1 # The scale of action execution 
+  # interaction stuff
+  kp_interaction: 5
+  interaction_timesteps: 20 
+  interaction_action_scale: 0.05
+  kp_execution: 150 
+  interaction_directions: ['forward', 'backward', 'left', 'right']

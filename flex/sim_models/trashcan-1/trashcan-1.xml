@@ -1,0 +1,65 @@
+<mujoco model="partnet_uff68587a-b3c7-4b31-b5a6-e63301708383">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="original-28" file="original-28.stl" />
+        <mesh name="original-27" file="original-27.stl" />
+        <mesh name="original-21" file="original-21.stl" />
+        <mesh name="original-22" file="original-22.stl" />
+        <mesh name="original-19" file="original-19.stl" />
+        <mesh name="original-24" file="original-24.stl" />
+        <mesh name="original-25" file="original-25.stl" />
+        <mesh name="original-26" file="original-26.stl" />
+        <mesh name="original-4" file="original-4.stl" />
+        <mesh name="original-3" file="original-3.stl" />
+        <mesh name="original-2" file="original-2.stl" />
+        <mesh name="original-16" file="original-16.stl" />
+        <mesh name="original-8" file="original-8.stl" />
+        <mesh name="original-13" file="original-13.stl" />
+        <mesh name="original-9" file="original-9.stl" />
+        <mesh name="original-6" file="original-6.stl" />
+        <mesh name="original-15" file="original-15.stl" />
+        <mesh name="original-11" file="original-11.stl" />
+        <mesh name="original-17" file="original-17.stl" />
+        <mesh name="original-12" file="original-12.stl" />
+        <mesh name="original-7" file="original-7.stl" />
+        <mesh name="original-1" file="original-1.stl" />
+        <mesh name="original-10" file="original-10.stl" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object">
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-4" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-3" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-2" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-16" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-8" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-13" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-9" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-6" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-15" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-11" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-17" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-12" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-7" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-1" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-10" conaffinity="0" contype="0"/>
+        <body name="link_0" pos="0 0 0" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.0183773 0.0839645 0.344335" quat="0.935955 0.351252 0.0094227 0.0228188" mass="258.838" diaginertia="25.2069 20.5538 15.9737" />
+            <joint name="joint_0" pos="0 0 0" axis="0 0 1" type="slide" limited="true" range="-0.488 0" />
+            <geom type="mesh" group="0" mesh="original-28" />
+            <geom type="mesh" group="0" mesh="original-27" />
+            <geom type="mesh" group="0" mesh="original-21" />
+            <geom type="mesh" group="0" mesh="original-22" />
+            <geom type="mesh" group="0" mesh="original-19" name="panel"/>
+            <geom type="mesh" group="0" mesh="original-24" />
+            <geom type="mesh" group="0" mesh="original-25" />
+            <geom type="mesh" group="0" mesh="original-26" />
+        </body>
+     </body>
+        <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1"/>
+    </body>
+    </worldbody>
+</mujoco>

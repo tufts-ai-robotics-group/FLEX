@@ -1,0 +1,1 @@
+# GAMMA uses conda environment `GAMMA`

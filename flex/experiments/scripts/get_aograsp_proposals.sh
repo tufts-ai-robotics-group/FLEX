@@ -1,0 +1,1 @@
+# `AO-grasp` uses conda environment `frl` and `cgn`

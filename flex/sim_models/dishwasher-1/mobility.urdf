@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<robot name="partnet_c6090fb2806b2abfa5f4a1f264741b67">
+	<link name="base"/>
+	<link name="link_0">
+		<visual name="frame-11">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-2.stl"/>
+			</geometry>
+		</visual>
+		<visual name="frame-11">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-0.stl"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-2.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-0.stl"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0"/>
+		<child link="link_0"/>
+		<parent link="base"/>
+	</joint>
+	<link name="link_1">
+		<visual name="door_frame-13">
+			<origin xyz="-0.4844919999999999 0.5654974489147149 -0.3878626761938106"/>
+			<geometry>
+				<mesh filename="textured_objs/new-1.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-14">
+			<origin xyz="-0.4844919999999999 0.5654974489147149 -0.3878626761938106"/>
+			<geometry>
+				<mesh filename="textured_objs/original-2.stl"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="-0.4844919999999999 0.5654974489147149 -0.3878626761938106"/>
+			<geometry>
+				<mesh filename="textured_objs/new-1.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.4844919999999999 0.5654974489147149 -0.3878626761938106"/>
+			<geometry>
+				<mesh filename="textured_objs/original-2.stl"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_1" type="revolute">
+		<origin xyz="0.4844919999999999 -0.5654974489147149 0.3878626761938106"/>
+		<axis xyz="1 0 0"/>
+		<child link="link_1"/>
+		<parent link="link_0"/>
+		<limit lower="0.0" upper="1.5707963267948966"/>
+	</joint>
+</robot>

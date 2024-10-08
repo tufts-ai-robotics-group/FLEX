@@ -1,0 +1,40 @@
+<mujoco model="partnet_26616b8217bd2ef12619db0a5cf36754">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="original-1.obj.convex" file="original-1.stl" />
+        <mesh name="original-5.obj.convex" file="original-5.stl" />
+        <mesh name="original-3.obj.convex" file="original-3.stl" />
+        <mesh name="original-4.obj.convex" file="original-4.stl" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object">
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="original-1.obj.convex" group="1" conaffinity="0" contype="0"/>
+        <body name="link_0" pos="0.104352 -0.254289 0.823603" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.239003 -0.894826 0.215081" quat="0.654352 0.65223 -0.271013 0.270131" mass="34.9413" diaginertia="9.09228 8.04458 1.05483" />
+            <joint name="joint_0" pos="0 0 0" axis="0 1 0" limited="true" range="-0.816814 1.50796" />
+            <!-- <site name="hinge_site" pos="0 0 0" rgba="0 0 0 0" size="0.005"/> -->
+            <!-- <joint name="joint_0" pos="0 0 0" axis="0 1 0" limited="true" range="0.0 1.0" /> -->
+            <geom pos="-0.254289 -0.823603 0.104352" type="mesh" mesh="original-5.obj.convex" name="panel" group="0" />
+            <body name="link_1" pos="-0.439038 -1.01798 0.395463">
+                <inertial pos="0.0110353 -0.00290809 0.00887909" quat="0.649889 0.275326 0.273867 0.653327" mass="0.0747925" diaginertia="0.000166626 0.000166562 1.39156e-05" />
+                <joint name="joint_1" pos="0 0 0" axis="-0.707108 1.63273e-08 -0.707106" limited="true" range="-0.785398 0.785398" />
+                <geom pos="0.184749 0.194382 -0.291111" type="mesh" mesh="original-3.obj.convex" group="0"/>
+                <geom pos="0.184749 0.194382 -0.291111" type="mesh" mesh="original-4.obj.convex" group="0"/>
+            </body>
+        </body>
+        </body>
+            <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+            <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+            <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.5"/>
+    </body>
+    </worldbody>
+    <contact>
+        <exclude body1="object" body2="link_0"/>
+        <exclude body1="object" body2="link_1"/>
+        <exclude body1="link_0" body2="link_0"/>
+        <exclude body1="link_0" body2="link_1"/>
+        <exclude body1="link_1" body2="link_1"/>
+    </contact>
+</mujoco>
