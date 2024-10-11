@@ -1,73 +1,105 @@
-# FLEX:  Framework for Learning Robot-Agnostic Force-based Skills Involving Sustained Contact Object Manipulation 
 
-# Clone the repo
-Clone the repo by running \(please only clone main branch, the ```website``` branch is for our project website.\)
-FLEX includes a submodule -- contact_graspnet, for generating grasp proposals. Please clone the submodule as well \(```--recurse-submodules```\).
-```
+# FLEX: Framework for Learning Robot-Agnostic Force-based Skills Involving Sustained Contact Object Manipulation
+
+
+This repository contains the codebase for FLEX, a framework for learning force-based reinforcement learning (RL) skills that are robot-agnostic and generalizable to various objects with similar joint configurations. Below, you will find instructions on how to install the dependencies and run FLEX. If you have any questions or wish to contribute or connect, please [contact the authors](#connect).
+
+## Table of Contents
+- [FLEX: Framework for Learning Robot-Agnostic Force-based Skills Involving Sustained Contact Object Manipulation](#flex-framework-for-learning-robot-agnostic-force-based-skills-involving-sustained-contact-object-manipulation)
+  - [Table of Contents](#table-of-contents)
+  - [Clone the Repository](#clone-the-repository)
+    - [Clone the AO-GRASP Repository](#clone-the-ao-grasp-repository)
+  - [Dependencies](#dependencies)
+    - [Setting Up the FLEX Environment](#setting-up-the-flex-environment)
+  - [Installing the Packages](#installing-the-packages)
+  - [Fixing Rendering Issues](#fixing-rendering-issues)
+  - [Try It Out!](#try-it-out)
+  - [Connect](#connect)
+
+## Clone the Repository
+
+Clone the repository and its submodules (FLEX includes a submodule called `contact_graspnet` for generating grasp proposals). Please ensure that you **only clone the main branch**; the `website` branch is for the project website.
+
+```bash
 git clone --recurse-submodules https://github.com/tufts-ai-robotics-group/FLEX.git --single-branch
 ```
 
-# Clone the AO-GRASP repo
-Clone the AO-GRASP repo to another directory. Please **do not** clone their version of the contact_graspnet. Their version is buggy when using newer GPU versions\(RTX 30 series onwards\).
- 
-# Depandencies
-There are two environments to be installed in order to run FLEX. 
-## The FLEX environment
-1. Install Conda; here, we recommend Miniconda.
-   Please follow the instructions on their website for installing Miniconda. [Link](https://docs.anaconda.com/miniconda/miniconda-install/)
-2. Create the main FLEX environment by running
-   ```
+### Clone the AO-GRASP Repository
+
+Clone the AO-GRASP repository into a separate directory. **Do not** clone their version of `contact_graspnet`, as it is known to have compatibility issues with newer GPUs (RTX 30 series onwards).
+
+## Dependencies
+
+There are two environments to set up to run FLEX: the main FLEX environment and a separate environment for `contact_graspnet` due to different CUDA versions.
+
+### Setting Up the FLEX Environment
+
+1. **Install Conda**: We recommend Miniconda. Follow the [Miniconda installation instructions](https://docs.anaconda.com/miniconda/miniconda-install/).
+2. **Create the FLEX Environment**:
+   ```bash
    conda env create --name flex --file=environments.yml
    ```
-3. Create the environment for contact_graspnet. This is because contact_graspnet relies on a different version of CUDA compared to FLEX, thus to environments must by separated.
-   ```
+3. **Create the `contact_graspnet` Environment**: `contact_graspnet` relies on a different version of CUDA, so a separate environment is required.
+   ```bash
    cd flex/grasps/aograsp/contact_graspnet/
    conda env create --name cgn --file cgn_env_rtx30.yml
    ```
-   Note that this environment **MUST** be named as ```cgn```, since there will be a script to launch this environment when running grasp module.
+   > **Note:** The environment **must** be named `cgn` because a script automatically launches this environment when running the grasp module.
 
-# Installing the packages. 
-1. Install AO-GRASP by going into the root directory of the cloned ao-grasp package and run. You don't have to reinstall their dependencies because they are already included in the requirements for our ```flex``` environment.
-```
-conda activate flex
-pip install -e .
-```
-2.  Install PointNet++ for AO-GRASP.
+## Installing the Packages
+
+1. **Install AO-GRASP**: Navigate to the root directory of the cloned AO-GRASP package and run:
+   ```bash
+   conda activate flex
+   pip install -e .
    ```
+   You do not need to reinstall AO-GRASP's dependencies, as they are included in the `flex` environment's requirements.
+
+2. **Install PointNet++ for AO-GRASP**:
+   ```bash
    cd aograsp/models/Pointnet2_PyTorch/
    pip install -e .
    cd pointnet2_ops_lib/
    pip install -e .
    ```
-3. Install FLEX.
-   Go into the root directory of the cloned FLEX package and run
-   ```
+
+3. **Install FLEX**: Navigate to the root directory of the cloned FLEX package and run:
+   ```bash
    pip install -e .
    ```
 
-# Fixing issue for rendering
+## Fixing Rendering Issues
 
-Sometimes Robosuite \(The robot simulator that we use\) faces rendering issues.
-Type this in the terminal before running code to get around the OpenGL issue
+If you encounter rendering issues with Robosuite (the robot simulator used in this project), set the following environment variable before running the code:
 
-```export MUJOCO_GL="osmesa"```
-
-To permanently eliminate this issue, add the above line to your ```.bashrc``` file. 
-
-# Try it out!
-You can use the trained policies and check their performance by running:
-```
-conda activate flex
-cd flex/
-python scripts/parallel_test.py
+```bash
+export MUJOCO_GL="osmesa"
 ```
 
-Or, you can train the policy yourself by running:
-```
-conda activate flex
-cd flex/
-python scripts/parallel_train.py
-```
+To make this change permanent, add the above line to your `~/.bashrc` file.
 
-# Contact
-For any questions regarding the paper and the code, please contact us at <shijie.fang@tufts.edu>, <wenchang.gao@tufts.edu>, or <shivam.goel@tufts.edu>
+## Try It Out!
+
+You can test the trained policies or train a new policy using the commands below:
+
+- **Test the Trained Policies**:
+   ```bash
+   conda activate flex
+   cd flex/
+   python scripts/parallel_test.py
+   ```
+
+- **Train the Policy**:
+   ```bash
+   conda activate flex
+   cd flex/
+   python scripts/parallel_train.py
+   ```
+
+## Connect
+
+For any questions regarding the paper or the code, please contact us at:
+- [shijie.fang@tufts.edu](mailto:shijie.fang@tufts.edu)
+- [wenchang.gao@tufts.edu](mailto:wenchang.gao@tufts.edu)
+- [shivam.goel@tufts.edu](mailto:shivam.goel@tufts.edu)
+
