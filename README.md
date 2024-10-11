@@ -47,11 +47,26 @@ pip install -e .
    pip install -e .
    ```
 
-
 # Fixing issue for rendering
 
+Sometimes Robosuite \(The robot simulator that we use\) faces rendering issues.
 Type this in the terminal before running code to get around the OpenGL issue
 
 ```export MUJOCO_GL="osmesa"```
 
 To permanently eliminate this issue, add the above line to your ```.bashrc``` file. 
+
+# Try it out!
+You can use the trained policies and check their performance by running:
+```
+conda activate flex
+cd flex\
+python scripts/parallel_test.py
+```
+
+Or, you can train the policy yourself by running:
+```
+conda activate flex
+cd flex\
+python scripts/parallel_train.py
+```
