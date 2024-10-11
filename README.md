@@ -1,7 +1,5 @@
 # FLEX:  Framework for Learning Robot-Agnostic Force-based Skills Involving Sustained Contact Object Manipulation 
 
-## Authors: Shijie Fang*, Wenchang Gao*, Shivam Goel*, Matthias Scheutz, Jivko Sinapov
-
 # Clone the repo
 Clone the repo by running \(please only clone main branch, the ```website``` branch is for our project website.\)
 FLEX includes a submodule -- contact_graspnet, for generating grasp proposals. Please clone the submodule as well \(```--recurse-submodules```\).
