@@ -60,13 +60,13 @@ To permanently eliminate this issue, add the above line to your ```.bashrc``` fi
 You can use the trained policies and check their performance by running:
 ```
 conda activate flex
-cd flex\
+cd flex/
 python scripts/parallel_test.py
 ```
 
 Or, you can train the policy yourself by running:
 ```
 conda activate flex
-cd flex\
+cd flex/
 python scripts/parallel_train.py
 ```
