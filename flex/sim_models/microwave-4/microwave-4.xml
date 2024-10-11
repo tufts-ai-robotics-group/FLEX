@@ -1,0 +1,55 @@
+<mujoco model="partnet_c3bb5f3c842a6c2d178e7d331e641179">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="original-1" file="original-1.stl" />
+        <mesh name="original-8" file="original-8.stl" />
+        <mesh name="original-16" file="original-16.stl" />
+        <mesh name="original-9" file="original-9.stl" />
+        <mesh name="original-10" file="original-10.stl" />
+        <mesh name="original-11" file="original-11.stl" />
+        <mesh name="original-12" file="original-12.stl" />
+        <mesh name="original-13" file="original-13.stl" />
+        <mesh name="original-14" file="original-14.stl" />
+        <mesh name="original-15" file="original-15.stl" />
+        <mesh name="original-3" file="original-3.stl" />
+        <mesh name="original-6" file="original-6.stl" />
+        <mesh name="original-18" file="original-18.stl" />
+        <mesh name="original-20" file="original-20.stl" />
+        <mesh name="original-19" file="original-19.stl" />
+        <mesh name="original-4" file="original-4.stl" />
+        <mesh name="original-2" file="original-2.stl" />
+        <mesh name="original-5" file="original-5.stl" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object">
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-4" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-2" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-5" conaffinity="0" contype="0"/>
+        <body name="link_0" pos="-0.547794 0.64304 -0.425939" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="0.447217 0.443532 0.0152488" quat="-0.00468924 0.699346 0.00479933 0.714752" mass="54.1209" diaginertia="8.59033 4.72405 3.90149" />
+            <joint name="joint_0" pos="0 0 0" axis="0 -1 0" limited="true" range="0 1.5708" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-1" name="panel"/>
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-8" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-16" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-9" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-10" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-11" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-12" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-13" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-14" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-15" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-3" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-6" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-18" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-20" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" group="0" mesh="original-19" />
+        </body>
+    </body>
+        <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1"/>
+    </body>
+    </worldbody>
+</mujoco>

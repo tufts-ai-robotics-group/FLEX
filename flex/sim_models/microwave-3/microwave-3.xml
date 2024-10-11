@@ -1,0 +1,143 @@
+<mujoco model="partnet_87bae84777fe8b702bac1bcdfc2402d2">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="original-4" file="original-4.stl" />
+        <mesh name="original-2" file="original-2.stl" />
+        <mesh name="original-3" file="original-3.stl" />
+        <mesh name="original-12" file="original-12.stl" />
+        <mesh name="original-13" file="original-13.stl" />
+        <mesh name="original-15" file="original-15.stl" />
+        <mesh name="original-14" file="original-14.stl" />
+        <mesh name="original-16" file="original-16.stl" />
+        <mesh name="original-26" file="original-26.stl" />
+        <mesh name="original-17" file="original-17.stl" />
+        <mesh name="original-19" file="original-19.stl" />
+        <mesh name="original-20" file="original-20.stl" />
+        <mesh name="original-23" file="original-23.stl" />
+        <mesh name="original-27" file="original-27.stl" />
+        <mesh name="original-21" file="original-21.stl" />
+        <mesh name="original-22" file="original-22.stl" />
+        <mesh name="original-18" file="original-18.stl" />
+        <mesh name="original-25" file="original-25.stl" />
+        <mesh name="original-11" file="original-11.stl" />
+        <mesh name="original-10" file="original-10.stl" />
+        <mesh name="original-24" file="original-24.stl" />
+        <mesh name="new-0" file="new-0.stl" />
+        <mesh name="new-3" file="new-3.stl" />
+        <mesh name="original-6" file="original-6.stl" />
+        <mesh name="new-1" file="new-1.stl" />
+        <mesh name="new-2" file="new-2.stl" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object">
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-0" conaffinity="0" contype="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-3" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-6" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-1" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-2" conaffinity="0" contype="0"/>
+        <body name="link_0" pos="-0.36599 0.804098 0.457136" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="0.678139 -0.528226 -0.0237413" quat="0.000147775 0.705485 -0.000129004 0.708725" mass="42.822" diaginertia="7.96437 6.50365 1.48015" />
+            <joint name="joint_0" pos="0 0 0" axis="0 -1 0" limited="true" range="0 1.5708" />
+            <geom pos="0.804098 -0.457136 -0.36599" type="mesh" group="0" mesh="original-4" name="panel" />
+            <geom pos="0.804098 -0.457136 -0.36599" type="mesh" group="0" mesh="original-2" />
+            <geom pos="0.804098 -0.457136 -0.36599" type="mesh" group="0" mesh="original-3" />
+        </body>
+        <body name="link_1" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.0498873 -0.207103 0.00312529" quat="0 0.707107 0 0.707107" mass="0.00643555" diaginertia="1.09861e-06 5.70476e-07 5.70476e-07" />
+            <joint name="joint_1" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-12" />
+        </body>
+        <body name="link_2" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.107131 -0.207103 0.00312529" quat="0 0.707107 0 0.707107" mass="0.00643557" diaginertia="1.09861e-06 5.7048e-07 5.70478e-07" />
+            <joint name="joint_2" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-13" />
+        </body>
+        <body name="link_3" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.164376 -0.207103 0.00312529" quat="0.5 0.5 -0.5 0.5" mass="0.00643557" diaginertia="1.09861e-06 5.7049e-07 5.70468e-07" />
+            <joint name="joint_3" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-15" />
+        </body>
+        <body name="link_4" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.164376 -0.0926147 0.0031253" quat="0.5 0.5 -0.5 0.5" mass="0.00643548" diaginertia="1.09858e-06 5.70467e-07 5.7046e-07" />
+            <joint name="joint_4" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-14" />
+        </body>
+        <body name="link_5" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.107131 -0.0926147 0.0031253" quat="0 0.707107 0 0.707107" mass="0.00643548" diaginertia="1.09858e-06 5.70472e-07 5.70455e-07" />
+            <joint name="joint_5" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-16" />
+        </body>
+        <body name="link_6" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.0498873 -0.0926147 0.00312529" quat="0 0.707107 0 0.707107" mass="0.00643546" diaginertia="1.09858e-06 5.70468e-07 5.70454e-07" />
+            <joint name="joint_6" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-26" />
+        </body>
+        <body name="link_7" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.0498873 -0.041731 0.00312529" quat="0 0.707107 0 0.707107" mass="0.00643555" diaginertia="1.09861e-06 5.70476e-07 5.70476e-07" />
+            <joint name="joint_7" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-17" />
+        </body>
+        <body name="link_8" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.107131 -0.041731 0.00312529" quat="0 0.707107 0 0.707107" mass="0.00643557" diaginertia="1.09861e-06 5.7048e-07 5.70477e-07" />
+            <joint name="joint_8" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-19" />
+        </body>
+        <body name="link_9" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.164376 -0.041731 0.00312529" quat="0.5 0.5 -0.5 0.5" mass="0.00643557" diaginertia="1.09861e-06 5.7049e-07 5.70468e-07" />
+            <joint name="joint_9" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-20" />
+        </body>
+        <body name="link_10" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.164376 0.015513 0.0031253" quat="0.5 0.5 -0.5 0.5" mass="0.00643558" diaginertia="1.09862e-06 5.70493e-07 5.70469e-07" />
+            <joint name="joint_10" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-23" />
+        </body>
+        <body name="link_11" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.107131 0.015513 0.0031253" quat="0 0.707107 0 0.707107" mass="0.00643558" diaginertia="1.09862e-06 5.70481e-07 5.70481e-07" />
+            <joint name="joint_11" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-27" />
+        </body>
+        <body name="link_12" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.0498873 0.015513 0.00312529" quat="0.5 0.5 -0.5 0.5" mass="0.00643556" diaginertia="1.09861e-06 5.70479e-07 5.70477e-07" />
+            <joint name="joint_12" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-21" />
+        </body>
+        <body name="link_13" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.0498873 0.0727573 0.00312529" quat="0 0.707107 0 0.707107" mass="0.00643547" diaginertia="1.09858e-06 5.70468e-07 5.70454e-07" />
+            <joint name="joint_13" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-22" />
+        </body>
+        <body name="link_14" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.107131 0.0727573 0.0031253" quat="0 0.707107 0 0.707107" mass="0.00643548" diaginertia="1.09858e-06 5.70472e-07 5.70455e-07" />
+            <joint name="joint_14" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-18" />
+        </body>
+        <body name="link_15" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.164376 0.0727573 0.0031253" quat="0.5 0.5 -0.5 0.5" mass="0.00643548" diaginertia="1.09858e-06 5.70467e-07 5.7046e-07" />
+            <joint name="joint_15" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-25" />
+        </body>
+        <body name="link_16" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.0498873 0.149083 0.00312529" quat="0 0.707107 0 0.707107" mass="0.00643556" diaginertia="1.09861e-06 5.70489e-07 5.70467e-07" />
+            <joint name="joint_16" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-11" />
+        </body>
+        <body name="link_17" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.107131 0.149083 0.0031253" quat="0 0.707107 0 0.707107" mass="0.00643558" diaginertia="1.09862e-06 5.70493e-07 5.70469e-07" />
+            <joint name="joint_17" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-10" />
+        </body>
+        <body name="link_18" pos="-0.367247 -0.79178 -0.142152" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.164376 0.149083 0.0031253" quat="0 0.707107 0 0.707107" mass="0.00643558" diaginertia="1.09862e-06 5.70481e-07 5.70481e-07" />
+            <joint name="joint_18" pos="0 0 0" axis="0 0 -1" type="slide" limited="true" range="0 0.025" />
+            <geom pos="-0.79178 0.142152 -0.367247" type="mesh" group="0" mesh="original-24" />
+        </body>
+     </body>
+        <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1"/>
+    </body>
+    </worldbody>
+</mujoco>

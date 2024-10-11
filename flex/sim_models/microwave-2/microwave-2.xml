@@ -1,0 +1,53 @@
+<mujoco model="partnet_dc5c91c8c01b1c8c506c648223cdabe9">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="original-12" file="original-12.stl" scale="0.3 0.3 0.3" />
+        <mesh name="original-7" file="original-7.stl" scale="0.3 0.3 0.3" />
+        <mesh name="original-9" file="original-9.stl" scale="0.3 0.3 0.3" />
+        <mesh name="original-11" file="original-11.stl" scale="0.3 0.3 0.3" />
+        <mesh name="original-10" file="original-10.stl" scale="0.3 0.3 0.3" />
+        <mesh name="original-4" file="original-4.stl" scale="0.3 0.3 0.3" />
+        <mesh name="original-3" file="original-3.stl" scale="0.3 0.3 0.3" />
+        <mesh name="original-5" file="original-5.stl" scale="0.3 0.3 0.3" />
+        <mesh name="new-4" file="new-4.stl" scale="0.3 0.3 0.3" />
+        <mesh name="new-3" file="new-3.stl" scale="0.3 0.3 0.3" />
+        <mesh name="new-2" file="new-2.stl" scale="0.3 0.3 0.3" />
+        <mesh name="new-1" file="new-1.stl" scale="0.3 0.3 0.3" />
+        <mesh name="new-0" file="new-0.stl" scale="0.3 0.3 0.3" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object">
+            <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-5" conaffinity="0" contype="0" />
+            <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-4" conaffinity="0" contype="0" />
+            <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-3" conaffinity="0" contype="0" />
+            <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-2" conaffinity="0" contype="0" />
+            <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-1" conaffinity="0" contype="0" />
+            <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="new-0" conaffinity="0" contype="0" />
+            <body name="link_0" pos="-0.1267131 0.2167566 0.1305945" quat="0.5 0.5 -0.5 -0.5">
+                <inertial pos="0.578158 -0.440008 0.045937" quat="0.000151834 0.70444 -5.77531e-05 0.709764" mass="88.1961" diaginertia="15.7799 10.5248 5.40535" />
+                <joint name="joint_0" pos="0.0 0.0 0.0" axis="0 -1 0" limited="true" range="0 1.5708" />
+                <geom pos="0.2167566 -0.1305945 -0.1267131" type="mesh" group="0" mesh="original-12" />
+                <geom pos="0.2167566 -0.1305945 -0.1267131" type="mesh" group="0" mesh="original-7" />
+                <geom pos="0.2167566 -0.1305945 -0.1267131" type="mesh" group="0" mesh="original-9" name="panel" />
+                <geom pos="0.2167566 -0.1305945 -0.1267131" type="mesh" group="0" mesh="original-11" />
+                <geom pos="0.2167566 -0.1305945 -0.1267131" type="mesh" group="0" mesh="original-10" />
+            </body>
+            <body name="link_1" pos="-0.1728795 -0.18878219999999998 -0.0339072" quat="0.5 0.5 -0.5 -0.5">
+                <inertial pos="-0.00319601 8.68521e-05 -0.048853" quat="0 0.707107 0 0.707107" mass="0.481512" diaginertia="0.000936918 0.00059046 0.000484734" />
+                <joint name="joint_1" pos="0.0 0.0 0.0" axis="0 0 1" />
+                <geom pos="-0.18878219999999998 0.0339072 -0.1728795" type="mesh" group="0" mesh="original-4" />
+            </body>
+            <body name="link_2" pos="-0.17213399999999998 -0.1883142 0.0469119" quat="0.5 0.5 -0.5 -0.5">
+                <inertial pos="-0.00163601 0.00143201 -0.0463677" quat="0 0.707107 0 0.707107" mass="0.481513" diaginertia="0.000936919 0.00059046 0.000484735" />
+                <joint name="joint_2" pos="0.0 0.0 0.0" axis="0 0 1" />
+                <geom pos="-0.1883142 -0.0469119 -0.17213399999999998" type="mesh" group="0" mesh="original-3" />
+            </body>
+        </body>
+    <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005" />
+    <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005" />
+    <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1" />
+    </body>
+    </worldbody>
+</mujoco>

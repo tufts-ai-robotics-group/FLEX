@@ -1,0 +1,55 @@
+<mujoco model="partnet_c3bb5f3c842a6c2d178e7d331e641179">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh  name="original-1.obj.convex" file="original-1.obj.convex.stl" />
+        <mesh  name="original-8.obj.convex" file="original-8.obj.convex.stl" />
+        <mesh  name="original-16.obj.convex" file="original-16.obj.convex.stl" />
+        <mesh  name="original-9.obj.convex" file="original-9.obj.convex.stl" />
+        <mesh  name="original-10.obj.convex" file="original-10.obj.convex.stl" />
+        <mesh  name="original-11.obj.convex" file="original-11.obj.convex.stl" />
+        <mesh  name="original-12.obj.convex" file="original-12.obj.convex.stl" />
+        <mesh  name="original-13.obj.convex" file="original-13.obj.convex.stl" />
+        <mesh  name="original-14.obj.convex" file="original-14.obj.convex.stl" />
+        <mesh  name="original-15.obj.convex" file="original-15.obj.convex.stl" />
+        <mesh  name="original-3.obj.convex" file="original-3.obj.convex.stl" />
+        <mesh  name="original-6.obj.convex" file="original-6.obj.convex.stl" />
+        <mesh  name="original-18.obj.convex" file="original-18.obj.convex.stl" />
+        <mesh  name="original-20.obj.convex" file="original-20.obj.convex.stl" />
+        <mesh  name="original-19.obj.convex" file="original-19.obj.convex.stl" />
+        <mesh  name="original-4.obj.convex" file="original-4.obj.convex.stl" />
+        <mesh  name="original-2.obj.convex" file="original-2.obj.convex.stl" />
+        <mesh  name="original-5.obj.convex" file="original-5.obj.convex.stl" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object">
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="original-4.obj.convex" contype="0" conaffinity="0" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="original-2.obj.convex" contype="0" conaffinity="0" group="0" />
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" mesh="original-5.obj.convex" contype="0" conaffinity="0" group="0" />
+        <body name="link_0" pos="-0.547794 0.64304 -0.425939" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="0.518367 0.444263 0.0148138" quat="-0.000472274 0.701823 0.00050564 0.712351" mass="62.2208" diaginertia="9.46003 5.72577 3.77786" />
+            <joint name="joint_0" pos="0 0 0" axis="0 -1 0" limited="true" range="0 1.5708" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-1.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-8.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-16.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-9.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-10.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-11.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-12.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-13.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-14.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-15.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-3.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-6.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-18.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-20.obj.convex" group="0" />
+            <geom pos="0.64304 0.425939 -0.547794" type="mesh" mesh="original-19.obj.convex" group="0" />
+        </body>
+    </body>
+        <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1"/>
+    </body>
+    </worldbody>
+</mujoco>

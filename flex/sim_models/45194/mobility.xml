@@ -1,0 +1,671 @@
+<?xml version="1.0" ?>
+<robot name="partnet_190cb7264781df604da5feafe6f1c8fc">
+	<link name="base"/>
+	<link name="link_0">
+		<visual name="cabinet_door_surface-25">
+			<origin xyz="-0.6681607803488558 0.5002580285072327 -0.4117648367332666"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-65.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-26">
+			<origin xyz="-0.6681607803488558 0.5002580285072327 -0.4117648367332666"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-67.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-26">
+			<origin xyz="-0.6681607803488558 0.5002580285072327 -0.4117648367332666"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-69.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-26">
+			<origin xyz="-0.6681607803488558 0.5002580285072327 -0.4117648367332666"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-68.stl"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="-0.6681607803488558 0.5002580285072327 -0.4117648367332666"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-65.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6681607803488558 0.5002580285072327 -0.4117648367332666"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-67.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6681607803488558 0.5002580285072327 -0.4117648367332666"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-69.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.6681607803488558 0.5002580285072327 -0.4117648367332666"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-68.stl"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="revolute">
+		<origin xyz="0.6681607803488558 -0.5002580285072327 0.4117648367332666"/>
+		<axis xyz="0 1 0"/>
+		<child link="link_0"/>
+		<parent link="link_4"/>
+		<limit lower="-0.0" upper="1.5707963267948966"/>
+	</joint>
+	<link name="link_1">
+		<visual name="cabinet_door_surface-23">
+			<origin xyz="0.6813071306647132 0.5002580285072327 -0.40982595009476297"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-59.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-24">
+			<origin xyz="0.6813071306647132 0.5002580285072327 -0.40982595009476297"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-61.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-24">
+			<origin xyz="0.6813071306647132 0.5002580285072327 -0.40982595009476297"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-63.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-24">
+			<origin xyz="0.6813071306647132 0.5002580285072327 -0.40982595009476297"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-62.stl"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.6813071306647132 0.5002580285072327 -0.40982595009476297"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-59.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.6813071306647132 0.5002580285072327 -0.40982595009476297"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-61.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.6813071306647132 0.5002580285072327 -0.40982595009476297"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-63.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.6813071306647132 0.5002580285072327 -0.40982595009476297"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-62.stl"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_1" type="revolute">
+		<origin xyz="-0.6813071306647132 -0.5002580285072327 0.40982595009476297"/>
+		<axis xyz="0 -1 0"/>
+		<child link="link_1"/>
+		<parent link="link_4"/>
+		<limit lower="0.0" upper="1.5707963267948966"/>
+	</joint>
+	<link name="link_2">
+		<visual name="drawer_front-18">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-29.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_front-18">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-37.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_side-19">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-33.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_side-19">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-35.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_side-20">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-28.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_back-21">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-34.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-22">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-32.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-22">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-31.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-17">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-39.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-17">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-40.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-17">
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-41.stl"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-29.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-37.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-33.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-35.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-28.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-34.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-32.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-31.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-39.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-40.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="-0.3216367870406491 -0.4078478067291077 0.41649198532104537"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-41.stl"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_2" type="prismatic">
+		<origin xyz="0.3216367870406491 0.4078478067291077 -0.41649198532104537"/>
+		<axis xyz="0 0 0.9999999999999999"/>
+		<child link="link_2"/>
+		<parent link="link_4"/>
+		<limit lower="0" upper="0.6400000000000001"/>
+	</joint>
+	<link name="link_3">
+		<visual name="drawer_front-11">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-45.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_front-11">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-53.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_side-12">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-44.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_side-13">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-49.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_side-13">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-51.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_back-14">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-50.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-15">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-48.stl"/>
+			</geometry>
+		</visual>
+		<visual name="drawer_bottom-15">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-47.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-10">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-55.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-10">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-56.stl"/>
+			</geometry>
+		</visual>
+		<visual name="handle-10">
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-57.stl"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-45.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-53.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-44.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-49.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-51.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-50.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-48.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-47.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-55.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-56.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0.3642076777137352 -0.40596716406381594 0.41649198532104514"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-57.stl"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_3" type="prismatic">
+		<origin xyz="-0.3642076777137352 0.40596716406381594 -0.41649198532104514"/>
+		<axis xyz="0 0 0.9999999999999999"/>
+		<child link="link_3"/>
+		<parent link="link_4"/>
+		<limit lower="0" upper="0.6400000000000001"/>
+	</joint>
+	<link name="link_4">
+		<visual name="shelf-4">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-25.stl"/>
+			</geometry>
+		</visual>
+		<visual name="other_leaf-40">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-70.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-31">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-12.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-31">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-11.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-32">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-16.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_side_panel-32">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-15.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_front_panel-33">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-18.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_front_panel-33">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-19.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_front_panel-33">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-24.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_front_panel-33">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-7.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_front_panel-33">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-8.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_front_panel-33">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-4.stl"/>
+			</geometry>
+		</visual>
+		<visual name="vertical_front_panel-33">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-9.stl"/>
+			</geometry>
+		</visual>
+		<visual name="back_panel-34">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-6.stl"/>
+			</geometry>
+		</visual>
+		<visual name="back_panel-34">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-5.stl"/>
+			</geometry>
+		</visual>
+		<visual name="bottom_panel-35">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-3.stl"/>
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-36">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-23.stl"/>
+			</geometry>
+		</visual>
+		<visual name="frame_horizontal_bar-37">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-22.stl"/>
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-28">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-13.stl"/>
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-29">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-17.stl"/>
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-30">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-21.stl"/>
+			</geometry>
+		</visual>
+		<visual name="base_side_panel-38">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-20.stl"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-25.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-70.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-12.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-11.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-16.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-15.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-18.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-19.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-24.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-7.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-8.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-4.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-9.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-6.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-5.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-3.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-23.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-22.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-13.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-17.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-21.stl"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/convex-20.stl"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_4" type="fixed">
+		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0"/>
+		<child link="link_4"/>
+		<parent link="base"/>
+	</joint>
+</robot>

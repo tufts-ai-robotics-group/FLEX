@@ -1,0 +1,120 @@
+<mujoco model="partnet_3cdabe258ed67a144da5feafe6f1c8fc">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="convex-51" file="convex-51.stl" />
+        <mesh name="convex-46" file="convex-46.stl" />
+        <mesh name="convex-47" file="convex-47.stl" />
+        <mesh name="convex-45" file="convex-45.stl" />
+        <mesh name="convex-48" file="convex-48.stl" />
+        <mesh name="convex-50" file="convex-50.stl" />
+        <mesh name="convex-52" file="convex-52.stl" />
+        <mesh name="convex-42" file="convex-42.stl" />
+        <mesh name="convex-38" file="convex-38.stl" />
+        <mesh name="convex-39" file="convex-39.stl" />
+        <mesh name="convex-36" file="convex-36.stl" />
+        <mesh name="convex-37" file="convex-37.stl" />
+        <mesh name="convex-41" file="convex-41.stl" />
+        <mesh name="convex-28" file="convex-28.stl" />
+        <mesh name="convex-27" file="convex-27.stl" />
+        <mesh name="convex-32" file="convex-32.stl" />
+        <mesh name="convex-34" file="convex-34.stl" />
+        <mesh name="convex-33" file="convex-33.stl" />
+        <mesh name="convex-31" file="convex-31.stl" />
+        <mesh name="convex-30" file="convex-30.stl" />
+        <mesh name="convex-43" file="convex-43.stl" scale="2 2 2" />
+        <mesh name="convex-2" file="convex-2.stl" />
+        <mesh name="convex-16" file="convex-16.stl" />
+        <mesh name="convex-15" file="convex-15.stl" />
+        <mesh name="convex-12" file="convex-12.stl" />
+        <mesh name="convex-11" file="convex-11.stl" />
+        <mesh name="convex-6" file="convex-6.stl" />
+        <mesh name="convex-3" file="convex-3.stl" />
+        <mesh name="convex-8" file="convex-8.stl" />
+        <mesh name="convex-18" file="convex-18.stl" />
+        <mesh name="convex-9" file="convex-9.stl" />
+        <mesh name="convex-22" file="convex-22.stl" />
+        <mesh name="convex-5" file="convex-5.stl" />
+        <mesh name="convex-21" file="convex-21.stl" />
+        <mesh name="convex-7" file="convex-7.stl" />
+        <mesh name="convex-4" file="convex-4.stl" />
+        <mesh name="convex-23" file="convex-23.stl" />
+        <mesh name="convex-24" file="convex-24.stl" />
+        <mesh name="convex-53" file="convex-53.stl" />
+        <mesh name="convex-19" file="convex-19.stl" />
+        <mesh name="convex-13" file="convex-13.stl" />
+        <mesh name="convex-20" file="convex-20.stl" />
+        <mesh name="convex-17" file="convex-17.stl" />
+    </asset>
+    <worldbody>
+        <body>
+        <body name="object">
+            <body name="link" pos="0 0 0" quat="0 0 0 1">
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-2"  group="0"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-16" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-15" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-12" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-11" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-6"  group="0"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-3"  group="0"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-8"  group="0"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-18" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-9"  group="0"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-22" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-5"  group="0"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-21" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-7"  group="0"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-4"  group="0"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-23" group="0" name="bar-23"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-24" group="0" name="bar-24"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-53" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-19" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-13" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-20" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-17" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-51" group="0" />
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-46" group="0" name="bar-46"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-47" group="0" name="bar-47"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-45" group="0" name="bar-45"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-48" group="0" name="bar-48"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-50" group="0" name="bar-50"/>
+                <geom quat="0.7073883 0 0 0.7068252" type="mesh" mesh="convex-52" group="0" />     
+                <body name="link_0" pos="0.01 0 0" quat="0.7073883 0 0 0.7068252">
+                    <inertial pos="-0.370823 -0.140063 0.443522" quat="0.503577 0.496329 -0.496172 0.503867" mass="11.7813" diaginertia="1.14787 0.80664 0.394266" />
+                    <joint name="joint_0" pos="0 0 0" axis="0 -1 0" type="slide" limited="true" range="0 0.6" damping="1" frictionloss="1"/>
+                    <body name="foo">
+                        <geom type="mesh" mesh="convex-42" group="0" name="panel"/>
+                        <geom type="mesh" mesh="convex-38" group="0" name="foo-38"/>
+                        <geom type="mesh" mesh="convex-39" group="0" name="foo-39"/>
+                        <geom type="mesh" mesh="convex-36" group="0" name="foo-36"/>
+                        <geom type="mesh" mesh="convex-37" group="0" name="foo-37"/>
+                        <geom type="mesh" mesh="convex-41" group="0" name="foo-41"/>
+                        <geom type="mesh" mesh="convex-28" group="0" name="fo-28"/>
+                        <geom type="mesh" mesh="convex-27" group="0" name="fo-27"/>
+                        <geom type="mesh" mesh="convex-32" group="0" name="fo-32"/>
+                        <geom type="mesh" mesh="convex-34" group="0" name="fo-34"/>
+                        <geom type="mesh" mesh="convex-33" group="0" name="fo-33"/>
+                        <geom type="mesh" mesh="convex-31" group="0" name="fo-31"/>
+                        <!--<geom type="mesh" mesh="convex-30" group="0"/>
+                        <geom pos="0.375 0.4 -0.46" type="mesh" mesh="convex-43" group="0"/> -->
+                        <!-- <site name="handle" pos="-0.370823 -0.465 0.443522" size="0.02" rgba="0 0 1 1" /> -->
+                        <!-- <geom type="cylinder" pos="-0.383323 -0.475 0.45" size=".015 .1 .015" euler="0 -1.57 0" group="0" rgba="0 0 1 1" name="handle"/>
+                        <geom type="cylinder" pos="-0.32 -0.435 0.45" size=".01 .03 .01" euler="-1.57 0 0" group="0" rgba="0 0 1 1"/> 
+                        <geom type="cylinder" pos="-0.44 -0.435 0.45" size=".01 .03 .01" euler="-1.57 0 0" group="0" rgba="0 0 1 1"/>
+                        <site name="handle" pos="-0.370823 -0.55 0.35" size="0.02" rgba="0 0 1 1" /> -->
+                        <body name="handle_body"> 
+                            <geom type="cylinder" pos="-0.383323 -0.475 0.45" size=".015 .1 .015" euler="0 -1.57 0" group="0" rgba="0 0 1 1" name="handle"/>
+                            <geom type="cylinder" pos="-0.32 -0.435 0.45" size=".01 .03 .01" euler="-1.57 0 0" group="0" rgba="0 0 1 1" name="handle-1"/> 
+                            <geom type="cylinder" pos="-0.44 -0.435 0.45" size=".01 .03 .01" euler="-1.57 0 0" group="0" rgba="0 0 1 1" name="handle-2"/>
+                            <site name="handle" pos="-0.370823 -0.55 0.35" size="0.02" rgba="0 0 1 1" />
+                        </body>
+                    </body>
+                </body>
+            </body>
+        </body>
+        <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1"/>
+    </body>
+    </worldbody>
+</mujoco>

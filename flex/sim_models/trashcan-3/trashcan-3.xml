@@ -1,0 +1,97 @@
+<mujoco model="partnet_ub5271dfa-56bd-418c-9588-e94f39c12e42">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <asset>
+        <mesh name="original-30" file="original-30.stl" />
+        <mesh name="original-31" file="original-31.stl" />
+        <mesh name="original-32" file="original-32.stl" />
+        <mesh name="original-34" file="original-34.stl" />
+        <mesh name="original-35" file="original-35.stl" />
+        <mesh name="original-36" file="original-36.stl" />
+        <mesh name="original-56" file="original-56.stl" />
+        <mesh name="original-57" file="original-57.stl" />
+        <mesh name="original-58" file="original-58.stl" />
+        <mesh name="original-54" file="original-54.stl" />
+        <mesh name="original-22" file="original-22.stl" />
+        <mesh name="original-24" file="original-24.stl" />
+        <mesh name="original-21" file="original-21.stl" />
+        <mesh name="original-41" file="original-41.stl" />
+        <mesh name="original-52" file="original-52.stl" />
+        <mesh name="original-26" file="original-26.stl" />
+        <mesh name="original-3" file="original-3.stl" />
+        <mesh name="original-44" file="original-44.stl" />
+        <mesh name="original-16" file="original-16.stl" />
+        <mesh name="original-8" file="original-8.stl" />
+        <mesh name="original-13" file="original-13.stl" />
+        <mesh name="original-9" file="original-9.stl" />
+        <mesh name="original-45" file="original-45.stl" />
+        <mesh name="original-5" file="original-5.stl" />
+        <mesh name="original-27" file="original-27.stl" />
+        <mesh name="original-51" file="original-51.stl" />
+        <mesh name="original-50" file="original-50.stl" />
+        <mesh name="original-6" file="original-6.stl" />
+        <mesh name="original-48" file="original-48.stl" />
+        <mesh name="original-11" file="original-11.stl" />
+        <mesh name="original-38" file="original-38.stl" />
+        <mesh name="original-18" file="original-18.stl" />
+        <mesh name="original-25" file="original-25.stl" />
+        <mesh name="original-17" file="original-17.stl" />
+        <mesh name="original-12" file="original-12.stl" />
+        <mesh name="original-42" file="original-42.stl" />
+        <mesh name="original-20" file="original-20.stl" />
+        <mesh name="original-47" file="original-47.stl" />
+        <mesh name="original-14" file="original-14.stl" />
+    </asset>
+    <worldbody>
+    <body>
+        <body name="object">
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-21" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-41" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-52" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-26" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-3" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-44" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-16" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-8" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-13" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-9" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-45" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-5" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-27" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-51" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-50" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-6" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-48" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-11" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-38" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-18" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-25" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-17" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-12" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-42" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-20" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-47" conaffinity="0" contype="0"/>
+        <geom quat="0.5 0.5 -0.5 -0.5" type="mesh" group="0" mesh="original-14" conaffinity="0" contype="0"/>
+        <body name="link_0" pos="-0.530105 -0.0472994 0.107966" quat="0.5 0.5 -0.5 -0.5">
+            <inertial pos="-0.0237799 -0.0605602 -0.45003" quat="0.998656 0.0516329 -0.00350804 0.00263484" mass="304.365" diaginertia="31.1454 28.4214 18.3932" />
+            <joint name="joint_0" pos="0 0 0" axis="0 0 1" type="slide" limited="true" range="0 1" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-30" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-31" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-32" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-34" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-35" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-36" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-56" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-57" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-58" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-54" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-22" />
+            <geom pos="-0.0472994 -0.107966 -0.530105" type="mesh" group="0" mesh="original-24" />
+        </body>
+    </worldbody>
+     </body>
+        <site name="bottom_site" pos="0 0 -0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="top_site" pos="0 0 0.3" rgba="0 0 0 0" size="0.005"/>
+        <site name="horizontal_radius_site" pos="0.3 0 0" rgba="0 0 0 0" size="0.1"/>
+    </body>
+</mujoco>
