@@ -68,3 +68,6 @@ conda activate flex
 cd flex/
 python scripts/parallel_train.py
 ```
+
+# Contact
+For any questions regarding the paper and the code, please contact us at <shijie.fang@tufts.edu>, <wenchang.gao@tufts.edu>, or <shivam.goel@tufts.edu>
