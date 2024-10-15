@@ -7,6 +7,7 @@ This repository contains the codebase for FLEX, a framework for learning force-b
 ## Table of Contents
 - [FLEX: Framework for Learning Robot-Agnostic Force-based Skills Involving Sustained Contact Object Manipulation](#flex-framework-for-learning-robot-agnostic-force-based-skills-involving-sustained-contact-object-manipulation)
   - [Table of Contents](#table-of-contents)
+  - [System requirements](#system-requirements)
   - [Clone the Repository](#clone-the-repository)
     - [Clone the AO-GRASP Repository](#clone-the-ao-grasp-repository)
   - [Dependencies](#dependencies)
@@ -15,6 +16,9 @@ This repository contains the codebase for FLEX, a framework for learning force-b
   - [Fixing Rendering Issues](#fixing-rendering-issues)
   - [Try It Out!](#try-it-out)
   - [Connect](#connect)
+
+## System requirements
+This code is tested on Ubuntu 20.02 and Ubuntu 22.04, with RTX30 and RTX40 series GPU.
 
 ## Clone the Repository
 
