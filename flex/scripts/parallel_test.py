@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from utils.sim_utils import initialize_robot_position, get_close_to_grasp_point, interact_estimate_params
 import robosuite.utils.transform_utils as transform
-from utils.control_utils import PathPlanner, Linear, Gaussian
+# from utils.control_utils import PathPlanner, Linear, Gaussian
 import os 
 import json
 from scipy.spatial.transform import Rotation as R 
@@ -16,16 +16,16 @@ import utils.sim_utils as sim_utils
 from grasps.aograsp.get_pointclouds import get_aograsp_ply_and_config
 from grasps.aograsp.get_affordance import get_affordance_main
 from grasps.aograsp.get_proposals import get_grasp_proposals_main
-from gamma.get_joint_param import get_joint_param_main
+# from gamma.get_joint_param import get_joint_param_main
 from agent.td3 import TD3
 from termcolor import colored, cprint
 import termcolor
 import warnings
 import yaml 
-from perceptions.interactive_perception import InteractivePerception 
+# from perceptions.interactive_perception import InteractivePerception 
 from env.wrappers import make_env, SubprocessEnv, GymWrapper
-from env.train_multiple_revolute_env import MultipleRevoluteEnv
-from env.train_prismatic_env import TrainPrismaticEnv
+# from env.train_multiple_revolute_env import MultipleRevoluteEnv
+# from env.train_prismatic_env import TrainPrismaticEnv
 warnings.filterwarnings("ignore", category=FutureWarning) 
 import stable_baselines3 as sb3
 import argparse
@@ -55,7 +55,7 @@ def get_state(obs, params, final_grasp_pos):
         return np.concatenate([hinge_direction, projection])
         # return revolute_state(obs)
 
-def test_object(run_id, obj_name='cabinet-1', object_scale=0.4, robot_name='Panda', use_sb3_agent=False, save_video=False):
+def test_object(run_id, obj_name='cabinet-1', object_scale=0.4, robot_name='Panda', use_sb3_agent=False, save_video=False, render_env=False):
 
     controller_name = "OSC_POSE"
     controller_cfg_dir = os.path.join('cfg',"controller_configs")
@@ -87,7 +87,7 @@ def test_object(run_id, obj_name='cabinet-1', object_scale=0.4, robot_name='Pand
     kp_execution = robot_config['kp_execution']
     interaction_timesteps = robot_config['interaction_timesteps'] 
     interaction_directions = robot_config['interaction_directions'] 
-    render = False
+    # render = True
 
     x_range = (0.5, 0.5)
     y_range = (0.5, 0.5)
@@ -213,7 +213,7 @@ def test_object(run_id, obj_name='cabinet-1', object_scale=0.4, robot_name='Pand
     grasp_quat = top_k_quat_wf[0] 
 
     final_grasp_pos, rotation_vector, obs = get_close_to_grasp_point(env, grasp_pos, grasp_quat, robot_gripper_pos, 
-                                                                     robot_config=config[robot_name], render=False)
+                                                                     robot_config=config[robot_name], render=render_env)
 
     done = False
     last_grasp_pos = final_grasp_pos
@@ -240,7 +240,7 @@ def test_object(run_id, obj_name='cabinet-1', object_scale=0.4, robot_name='Pand
         print('joint classfication correct') 
     else:
         classification_correct = False
-        env.save_video(f'videos/ip_failure_video_{run_id}.mp4') 
+        # env.save_video(f'videos/ip_failure_video_{run_id}.mp4') 
         # env.close()
         # return 0, 0
         # print('joint classfication incorrect')
@@ -273,6 +273,9 @@ def test_object(run_id, obj_name='cabinet-1', object_scale=0.4, robot_name='Pand
             break
         last_grasp_pos = next_obs['robot0_eef_pos']
         state = get_state(next_obs, estimation_dict, final_grasp_pos)
+        if render_env:
+            # print('rendering')
+            env.render()
 
     # print('success' if env._check_success() else 'failed')
     success = env._check_success()
@@ -281,8 +284,8 @@ def test_object(run_id, obj_name='cabinet-1', object_scale=0.4, robot_name='Pand
         # print('prismatic error: ', ip.prismatic_error())
     # print('revolute error: ', ip.revolute_error()[0])
     # print('revolute radius: ', ip.revolute_error()[2]) env.save_video(f'videos/failure_test_video_{run_id}.mp4')
-    if save_video:
-        env.save_video(f'videos/{robot_name}_{obj_name}.mp4')
+    # if save_video:
+    #     env.save_video(f'videos/{robot_name}_{obj_name}.mp4')
     # print('gt joint direction: ', obs['joint_direction'])
     env.close()
     return classification_correct, success
@@ -291,8 +294,11 @@ def test(args):
     with open ('cfg/test_config.yaml') as f:
         config = yaml.safe_load(f)
     objects = config['test_objects'] 
+    render = args.render
+    print(render)
+    print('render env: ', type(render))
     train_objects = config['train_objects']
-    save_video = True
+    save_video = False
     robots = config['robots']
     if args.run_id is not None:
         policy_run_id = args.run_id
@@ -314,7 +320,7 @@ def test(args):
                 obj_type = object.split('-')[1]
             for i in range(n_trials):
                 # print(robot)
-                classification_correct, success = test_object(run_id=policy_run_id, obj_name=object, object_scale=object_config[obj_type]['scale'], robot_name=robot, use_sb3_agent=False, save_video=save_video)
+                classification_correct, success = test_object(run_id=policy_run_id, obj_name=object, object_scale=object_config[obj_type]['scale'], robot_name=robot, use_sb3_agent=False, save_video=save_video, render_env=render)
                 classification_results.append(classification_correct)
                 execution_results.append(success)
             if obj_type not in json_dict:
@@ -384,5 +390,6 @@ if __name__ == '__main__':
     # print(np.mean(ss))
     parser = argparse.ArgumentParser()
     parser.add_argument('--run_id', type=int)
+    parser.add_argument('--render', type=bool,default=False)
     args = parser.parse_args()
     test(args)

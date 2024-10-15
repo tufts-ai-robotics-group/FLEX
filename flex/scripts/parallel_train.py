@@ -11,7 +11,7 @@ import json
 from agent.td3 import TD3, ReplayBuffer
 from env.train_multiple_revolute_env import MultipleRevoluteEnv 
 from env.train_prismatic_env import TrainPrismaticEnv 
-from env.object_env import GeneralObjectEnv
+# from env.object_env import GeneralObjectEnv
 from env.wrappers import ActionRepeatWrapperNew, make_env, SubprocessEnv
 import time
 import random
