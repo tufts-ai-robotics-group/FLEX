@@ -258,8 +258,8 @@ def test_object(run_id, obj_name='cabinet-1', object_scale=0.4, robot_name='Pand
         # print(action)
         action = action.flatten()
         # action = np.array([0, 5, 0])
-        action[-1] = 0
-        action += np.array([1, 1, 0])
+        # action[-1] = 0
+        # action += np.array([1, 1, 0])
         action = action * action_scale 
         # print('state: ', state)
         # print('action: ', action)
