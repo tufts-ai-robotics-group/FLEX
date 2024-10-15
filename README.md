@@ -26,7 +26,10 @@ git clone --recurse-submodules https://github.com/tufts-ai-robotics-group/FLEX.g
 
 ### Clone the AO-GRASP Repository
 
-Clone the AO-GRASP repository into a separate directory. **Do not** clone their version of `contact_graspnet`, as it is known to have compatibility issues with newer GPUs (RTX 30 series onwards).
+Clone **our version** of AO-GRASP repository into a separate directory. **Do not** clone their version of `contact_graspnet`, as it is known to have compatibility issues with newer GPUs (RTX 30 series onwards).
+```bash
+git clone https://github.com/WenchangGaoT/ao-grasp.git
+```
 
 ## Dependencies
 
