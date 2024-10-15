@@ -64,6 +64,7 @@ There are two environments to set up to run FLEX: the main FLEX environment and 
 
 2. **Install PointNet++ for AO-GRASP**:
    ```bash
+   conda activate flex
    cd aograsp/models/Pointnet2_PyTorch/
    pip install -e .
    cd pointnet2_ops_lib/
@@ -72,6 +73,7 @@ There are two environments to set up to run FLEX: the main FLEX environment and 
 
 3. **Install FLEX**: Navigate to the root directory of the cloned FLEX package and run:
    ```bash
+   conda activate flex
    pip install -e .
    ```
 
