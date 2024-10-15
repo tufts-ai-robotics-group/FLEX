@@ -74,6 +74,7 @@ There are two environments to set up to run FLEX: the main FLEX environment and 
 3. **Install FLEX**: Navigate to the root directory of the cloned FLEX package and run:
    ```bash
    conda activate flex
+   cd flex/
    pip install -e .
    ```
 
@@ -95,7 +96,7 @@ You can test the trained policies or train a new policy using the commands below
    ```bash
    conda activate flex
    cd flex/
-   python scripts/parallel_test.py
+   python scripts/parallel_test.py --render=true --run_id=$(run_id)
    ```
 
 - **Train the Policy**:
