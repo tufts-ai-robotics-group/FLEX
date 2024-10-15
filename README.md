@@ -37,7 +37,7 @@ There are two environments to set up to run FLEX: the main FLEX environment and 
 1. **Install Conda**: We recommend Miniconda. Follow the [Miniconda installation instructions](https://docs.anaconda.com/miniconda/miniconda-install/).
 2. **Create the FLEX Environment**:
    ```bash
-   conda env create --name flex --file=environments.yml
+   conda env create --name flex --file=environment.yml
    ```
 3. **Create the `contact_graspnet` Environment**: `contact_graspnet` relies on a different version of CUDA, so a separate environment is required.
    ```bash
