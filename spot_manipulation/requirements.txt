@@ -1,0 +1,6 @@
+numpy>=1.21.0
+torch>=1.9.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+matplotlib>=3.5.0
+# bosdyn-client>=3.0.0  # Uncomment when implementing actual Spot interface 
